@@ -1,0 +1,36 @@
+.Controls {
+  display: flex;
+  flex-direction: row;
+  margin: 35px 0;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Controls li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.PlayingStatusButtons {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+}
+
+.IconButton {
+  height: 35px;
+  width: 45px;
+  background-color: #3DD0AD;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: 45px 35px;
+}
+
+.activeButton {
+  border: 1px solid #3DD0AD;
+  background-color: #D0FCF1;
+  padding: 20px;
+  border-radius: 50%;
+}
