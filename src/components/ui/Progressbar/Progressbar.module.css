@@ -1,0 +1,25 @@
+.Progressbar {
+  height: 10px;
+  width: 100%;
+  background-color: #E7E7E7;
+  position: relative;
+  border-radius: 15px;
+}
+
+.ProgressbarFilled {
+  position: absolute;
+  background-color: #3DD0AD;
+  height: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.ProgressbarCircle {
+  position: absolute;
+  border: 1px solid #3DD0AD;
+  background-color: #D0FCF1;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  top: -8px;
+}
