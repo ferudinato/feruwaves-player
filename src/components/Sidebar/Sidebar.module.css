@@ -1,0 +1,48 @@
+.Sidebar {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 100;
+  overflow-x: hidden;
+}
+
+.SidebarInner {
+  position: relative;
+  margin: 20px;
+  border: 1px solid #3DD0AD;
+  background-color: #91D8C7;
+  border-radius: 20px;
+  padding: 20px 15px;
+  width: 280px;
+  min-height: 92vh;
+  transform: translateX(300px);
+}
+
+.SidebarInner h3 {
+  text-align: right;
+  font-size: 28px;
+  padding-bottom: 15px;
+  color: #0EAE88;
+  border-bottom: 5px solid #05785C;
+}
+
+.SidebarMenu {
+  margin: 20px 10px;
+}
+
+.SongsItems {
+  list-style-type: none;
+  text-align: right;
+}
+
+.SongsItems li {
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
